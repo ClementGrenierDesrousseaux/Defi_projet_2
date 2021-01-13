@@ -60,3 +60,32 @@ nav a:hover
 }
 
 
+#texte_presentation
+{
+	text-align: center;
+}
+
+#art_graphisme
+{
+	text-align: center;
+}
+
+#art_strategie
+{
+	text-align: center;
+}
+
+#art_illustrations
+{
+	text-align: center;
+}
+
+#texte_avis
+{
+	text-align: center;
+}
+
+section
+{
+	text-align: center;
+}
