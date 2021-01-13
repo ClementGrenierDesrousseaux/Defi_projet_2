@@ -26,25 +26,25 @@ header
 	align-items: center;
 }
 
-nav ul	
+header nav ul	
 {
 	display: flex;
 	justify-content: flex-end;
 }
 
-nav li
+header nav li
 {
 	margin: 20px;
 	list-style-type: none;
 }
 
-nav a 
+header nav a 
 {
 	text-decoration: none;
 	color: black;
 }
 
-nav a:hover
+header nav a:hover
 {
 	color: blue;
 	border-bottom: 2px solid blue;
@@ -89,3 +89,43 @@ section
 {
 	text-align: center;
 }
+
+
+
+/* Footer */
+
+
+#signature
+{
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+#reseaux_sociaux
+{
+	text-align: center;
+}
+
+
+
+#facebook
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+
+
+footer nav 
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#adresse
+{
+	margin-left: 30px;
+}
+
