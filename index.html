@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41250847f8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <title></title>
 </head>
 
@@ -24,18 +26,23 @@
         <section>
             <div id="banniere">
                 <!-- Insérer image background -->
-                <img src="images/backgroung_image.jpg" alt="image arrière plan" id="background_image">
-                <img src="images/logo_long.png" alt="logo mon petit graphisme"id="logo_banniere">
-                <h1>Agence de graphisme</h1>
+                <div id="banniere_description">
+                    <img src="images/logo_long.png" alt="logo mon petit graphisme" id="logo_banniere">
+                    <p>Agence de graphisme</p>
+                </div>
             </div>
             <div>
                 <p id="texte_presentation">Mon petit graphisme est une agence de graphisme qui aide les entreprises à <br> créer des visuels attractifs.</p>
             </div>
             <div id="trois_articles">
                 <article id="art_graphisme">
-                    <img src="images/graphic-design.png" alt="Image pour article graphisme" id="image_graphisme">
-                    <h2>GRAPHISME</h2>
-                    <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fier.</p>
+                    <div><img src="images/graphic-design.png" alt="Image pour article graphisme" id="image_graphisme"></div>
+                    <div>
+                        <h2>GRAPHISME</h2>
+                    </div>
+                    <div>
+                        <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fier.</p>
+                    </div>
                 </article>
                 <article id="art_strategie">
                     <img src="images/strategie.png" alt="Image pour article stratégie">
@@ -47,15 +54,15 @@
                     <h2>ILLUSTRATIONS</h2>
                     <p>Nos graphistes vous proposerons des illustrations 100% originales.</p>
                 </article>
-                <aside id="avis">
-                    <div id="texte_avis">
-                        <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
-                    </div>
-                    <div id="auteur_avis">
-                        <p>Amandine, restauratrice</p>
-                    </div>
-                </aside>
             </div>
+            <aside id="avis">
+                <div id="texte_avis">
+                    <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
+                </div>
+                <div id="auteur_avis">
+                    <p>Amandine, restauratrice</p>
+                </div>
+            </aside>
         </section>
         <footer>
             <div id="signature">
